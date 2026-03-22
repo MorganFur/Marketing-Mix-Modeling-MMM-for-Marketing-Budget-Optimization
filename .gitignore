@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Generated outputs
+batch_predictions.csv
+evaluation_report.csv
+evaluation_summary.json
+evaluation_timeseries.png
+evaluation_error_hist.png
+evaluation_scatter.png
+
+# Virtual environments
+.venv/
+venv/
+
+# Test / tool caches
+.pytest_cache/
+.coverage
+
+# Derived notebooks
+*.nbconvert.ipynb
